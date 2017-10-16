@@ -1,0 +1,17 @@
+{
+  "name": "Moodle script",
+  "description": "Adding functionlatis",
+  "version": "2",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+
+  },
+  "browser_action": {
+    "default_title": "Get course titles"
+  },
+  "manifest_version": 2
+}
